@@ -1,6 +1,68 @@
 
-/* This is defult system 0 */
-*{
-    margin: 0%;
-    padding: 0%;
+/* font style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/* Primary class */
+
+.btn-primary{
+color: #FFF;
+font-size: 20px;
+border-radius: 8px;
+background: #E55473;
+padding: 20px 43px;
+gap: 10px;
+margin-top: 32px;
+}
+
+
+/* navbar section start */
+.header-container{
+    background: rgba(229, 84, 115, 0.10);
+    height: 850px;
+    max-width: 1920px;
+    height: 850px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-container{
+    display: flex;
+    padding-right: 240px;
+}
+
+.banner-text{
+    align-items: center;
+    padding-left: 240px;
+    padding-bottom: 147px;
+}
+
+.banner-title{
+    color: #272727;
+    font-size: 68px;
+    font-weight: 800;
+    width: 708px;
+    padding-top: 197px;
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    width: 634px;
+   margin-bottom: 20px;
+   margin-bottom: 0px;
+   margin-top: 32px;
+}
+
+.banner-img{
+padding-top: 50px;
+width: 635px;
+height: 800px;
+position: bottom right;
+padding-bottom: 0px;
+}
+/* navbar section end */
+
