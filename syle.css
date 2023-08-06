@@ -143,7 +143,7 @@ margin-bottom: 128px;
 .flower-container{
    padding-top: 48px;
    padding-bottom: 32px;
-
+    
 }
 
 .featur-flower-container{
@@ -152,6 +152,7 @@ margin-bottom: 128px;
     display: flex;
     margin-left: 240px;
     margin-right:240px;
+    gap: 24px;
 }
  /* Featured section end  */
 
@@ -242,12 +243,15 @@ gap: 24px;
  /* Get The Latest Deal 4th section start from here  */
 
 .get-deal-container{
-    background-image: url('./Rectangle\ 9\ \(1\).png');
-    /* width: 1440px; */
+    background-image: url('./Rectangle\ 9\ \(1\).png'); 
+    width: 1440px;
     height: 549px;
+    padding: 128px 240px 128px 240px ;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 128px 240px 128px 240px;
+    margin: ;
+    margin: auto;
+    justify-content: center;
 }
 
 .get-deal-title{
@@ -280,3 +284,42 @@ border: none;
  margin-bottom: 100px;
 }
  /* section end */
+
+ /* Footer 5th section start from here */
+ .footer-container{
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    justify-content: center;
+    margin: auto;
+ }
+
+ .footer-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+ }
+ .footer-span{
+color: #E55473;
+font-size: 48px;
+font-weight: 800;
+ }
+
+ .footer-description{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+ }
+.footer-copyright{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding-top: 22px;
+padding-bottom: 128px;
+}
