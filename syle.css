@@ -133,7 +133,6 @@ height: 438px;
 
 .flower-description{
 color: #272727;
-/* text-align: center; */
 font-size: 24px;
 font-weight: 700;
 line-height: 35px;
@@ -142,7 +141,6 @@ margin-bottom: 128px;
 }
 
 .flower-container{
-   /* margin: 48px 32px;; */
    padding-top: 48px;
    padding-bottom: 32px;
 
@@ -156,6 +154,7 @@ margin-bottom: 128px;
     margin-right:240px;
 }
  /* Featured section end  */
+
  /* Optional section  */
 
  /* Hot deal 2nd section start from here  */
@@ -205,6 +204,7 @@ padding: 100px 100px 186px;
     margin-bottom: 162px;
 }
  /* Hot deal section end */
+
  /* Instagram 3rd section start from here  */
  
  .instram-container{
@@ -237,11 +237,46 @@ gap: 24px;
     justify-content: center;
     gap: 24px;
 }
- /* Instagram section end  */
+ /* section end  */
 
  /* Get The Latest Deal 4th section start from here  */
 
+.get-deal-container{
+    background-image: url('./Rectangle\ 9\ \(1\).png');
+    /* width: 1440px; */
+    height: 549px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 128px 240px 128px 240px;
+}
 
+.get-deal-title{
+color: #272727;
+padding-top: 100px;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
 
- 
- /* Get The Latest Deal section end */
+.get-deal-text{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+padding-bottom: 38px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.btn-placeholder{
+width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+}
+
+.btn-container{
+   text-align: center;
+ margin-bottom: 100px;
+}
+ /* section end */
