@@ -157,6 +157,25 @@ margin-bottom: 128px;
  /* Featured section end  */
 
  /* Optional section  */
+ .service-container{
+    justify-content: center;
+    margin: 100px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.service-type{
+padding: 50px 30px;
+padding-right: 20px;
+}
+
+.service-text{
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+}
 
  /* Hot deal 2nd section start from here  */
 
@@ -323,3 +342,5 @@ font-weight: 400;
 padding-top: 22px;
 padding-bottom: 128px;
 }
+
+/* section end */
