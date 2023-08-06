@@ -5,6 +5,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+*{
+    /* width: 1920px; */
+}
+
 /* Primary class */
 
 .btn-primary{
@@ -16,6 +20,8 @@ padding: 20px 43px;
 gap: 10px;
 margin-top: 32px;
 border: 0;
+width: 217px;
+height: 64px;
 }
 
 
@@ -24,16 +30,13 @@ border: 0;
     background: rgba(229, 84, 115, 0.10);
     height: 850px;
     width: 1920px;
-    height: 850px;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
     margin: auto;
 }
 
 .banner-container{
     display: flex;
     padding-right: 240px;
+    justify-content: space-between;
 }
 
 .banner-text{
@@ -98,53 +101,119 @@ margin: auto;
 
 /* feature 1st part end */
 
+
 .flower-img{
-    
-    width: 310px;
-    height: 428px;
-    padding:110px 78px 0px 78px;
+    width: 210px;
+    height: 328px;
+    padding: 110px 78px 0px 78px;
     }
 
 .First{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 530px;
+    width: 264px;
+    height: 430px;
     background-repeat: no-repeat;
     padding-top: 110px;
 }    
 
+.second{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);  
+    width: 264px;
+    height: 438px;    
+}
+
+.third{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 264px;
+height: 438px;
+}
+
 .flower-description{
 color: #272727;
-text-align: center;
+/* text-align: center; */
 font-size: 24px;
 font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
+margin-bottom: 128px;
+}
+
+.flower-container{
+   /* margin: 48px 32px;; */
+   padding-top: 48px;
+   padding-bottom: 32px;
+
 }
 
 .featur-flower-container{
-    display: flex;
+    text-align: center;
     justify-content: center;
+    display: flex;
+    margin-left: 240px;
+    margin-right:240px;
 }
-
-
-
  /* Featured section end  */
-
  /* Optional section  */
 
  /* Hot deal 2nd section start from here  */
 
+.hot-deal-title{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+}
+
+.span-off{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+
+.hot-deal-img{
+width: 318px;
+height: 420px;
+padding: 100px 100px 186px;
+}
+
+.hot-deal-container{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    text-align: center;
+    justify-content: center;
+    padding-right: 300;
+    margin: auto;
+}
+
+.hot-deal-text-container{
+   padding: 230px opx 162px;
+    margin-left:  395pxpx;
+    margin-top: 130px;
+    margin-bottom: 162px;
+}
  /* Hot deal section end */
-  /* Instagram 3rd section start from here  */
+ /* Instagram 3rd section start from here  */
+
+
 
 
 
  /* Instagram section end  */
 
 
+
  /* Get The Latest Deal 4th section start from here  */
-
-
  /* Get The Latest Deal section end */
